@@ -10,9 +10,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-=======
 .pnp.js
->>>>>>> 0b3081aa6e42479eb94997a31fcf11a085df013b
 
 # testing
 /coverage
