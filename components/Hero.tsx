@@ -5,12 +5,15 @@ export default function Hero() {
     <section
       className="relative min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-32 overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%), url('/hero.jpeg')`,
+        backgroundImage: `linear-gradient(to bottom, 
+    rgba(24, 24, 27, 0.3) 0%, 
+    rgba(24, 24, 27, 0.8) 60%, 
+    rgba(24, 24, 27, 1) 100%), 
+    url('/hero.jpeg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      {/* Subtiler Grain/Rauschen-Effekt für mehr Tiefe (Optional) */}
       <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
 
       <div className="relative z-10 max-w-3xl">
@@ -23,8 +26,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-zinc-300 leading-relaxed mb-10 max-w-125 drop-shadow-lg">
-          STAR Student in Business Information Systems{' '}
-          <span className="text-white">@ SAP</span>
+          STAR Student in Business Information Systems @ SAP
         </p>
 
         <div className="flex gap-4 flex-wrap">
@@ -44,7 +46,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-zinc-400">
         <span className="text-[10px] font-mono tracking-widest uppercase opacity-70">
           scroll
