@@ -1,11 +1,4 @@
-@import "tailwindcss";
-
-@theme {
-  @keyframes float {
-    0%, 100% { transform: translateY(0) scale(1); }
-    50% { transform: translateY(-20px) scale(1.05); }
-  }
-}
+@import 'tailwindcss';
 
 :root {
   --background: #000000;
@@ -20,11 +13,6 @@
   }
 }
 
-/* Hilfsklassen für die Lichter, damit die Hero-Datei sauber bleibt */
-.glow-spot {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(100px);
-  z-index: -10;
-  opacity: 0.4;
+html {
+  scroll-behavior: smooth;
 }

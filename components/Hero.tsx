@@ -1,48 +1,55 @@
-import React from 'react';
 import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-32 bg-black overflow-hidden">
-      
-      <div className="absolute inset-0 -z-10" aria-hidden="true">
-        <div className="glow-spot top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blue-600 animate-[float_8s_ease-in-out_infinite]" />
-        <div className="glow-spot bottom-[10%] right-[-10%] w-[40%] h-[40%] bg-purple-600 animate-[float_12s_ease-in-out_infinite_reverse]" />
-      </div>
+    <section
+      className="relative min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-32 overflow-hidden"
+      style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%), url('/hero.jpeg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      {/* Subtiler Grain/Rauschen-Effekt für mehr Tiefe (Optional) */}
+      <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
 
-      <div className="max-w-3xl relative z-10">
-        <p className="text-sm font-mono text-zinc-500 mb-4 tracking-[0.2em] uppercase">
+      <div className="relative z-10 max-w-3xl">
+        <p className="text-sm font-mono text-zinc-400 mb-4 tracking-[0.2em] uppercase drop-shadow-md">
           Hi, I am
         </p>
-        
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 bg-linear-to-b from-white to-zinc-500 bg-clip-text text-transparent">
+
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 bg-linear-to-b from-white to-zinc-400 bg-clip-text text-transparent">
           Niklas Höfling.
         </h1>
-        
-        <p className="text-xl md:text-2xl text-zinc-400 leading-relaxed mb-10 max-w-125">
-          STAR Student in Business Information Systems @ SAP
+
+        <p className="text-xl md:text-2xl text-zinc-300 leading-relaxed mb-10 max-w-125 drop-shadow-lg">
+          STAR Student in Business Information Systems{' '}
+          <span className="text-white">@ SAP</span>
         </p>
 
         <div className="flex gap-4 flex-wrap">
-          <Link
-            href="/projects"
-            className="px-8 py-3 bg-white text-black rounded-lg font-semibold hover:bg-zinc-200 transition-transform active:scale-95"
+          <a
+            href="#projects"
+            className="px-8 py-3 bg-white text-black rounded-lg font-semibold hover:bg-zinc-200 transition-transform active:scale-95 text-center"
           >
             View Projects
-          </Link>
+          </a>
 
           <Link
             href="/contact"
-            className="px-8 py-3 border border-zinc-800 text-white rounded-lg font-semibold hover:bg-zinc-900 transition-colors"
+            className="px-8 py-3 border border-white/20 bg-white/5 backdrop-blur-md text-white rounded-lg font-semibold hover:bg-white/10 transition-all active:scale-95"
           >
             Get in touch
           </Link>
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-zinc-500">
-        <span className="text-[10px] font-mono tracking-widest uppercase opacity-50">scroll</span>
-        <div className="w-px h-12 bg-linear-to-b from-white to-transparent animate-bounce" />
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-zinc-400">
+        <span className="text-[10px] font-mono tracking-widest uppercase opacity-70">
+          scroll
+        </span>
+        <div className="w-px h-12 bg-linear-to-b from-white to-transparent animate-pulse" />
       </div>
     </section>
   );
