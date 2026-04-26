@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ImpressumPage() {
   return (
-    <main className="min-h-screen bg-[#0f1115] text-zinc-400 font-light pb-24">
+    <main className="min-h-screen bg-[#0f1115] text-zinc-400 font-light pb-24" lang="de">
       <nav className="py-12 px-6 md:px-16 lg:px-32">
         <Link
           href="/"
@@ -43,10 +43,10 @@ export default function ImpressumPage() {
             <p className="text-zinc-200">
               E-Mail:{' '}
               <a
-                href="mailto:niklas.hoefling@sap.com"
+                href="mailto:hoefling.niklas@gmx.de"
                 className="hover:text-blue-400 underline decoration-zinc-800 underline-offset-4 transition-colors"
               >
-                mail@niklas-hoefling.de
+                hoefling.niklas@gmx.de
               </a>
             </p>
           </section>
