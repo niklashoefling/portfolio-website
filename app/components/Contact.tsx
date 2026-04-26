@@ -25,8 +25,8 @@ const GithubIcon = ({ className }: { className?: string }) => (
 const socialLinks = [
   {
     name: 'Email',
-    value: 'mail@niklas-hoefling.de',
-    href: 'mailto:mail@niklas-hoefling.de',
+    value: 'hoefling.niklas@gmx.de',
+    href: 'mailto:hoefling.niklas@gmx.de',
     rel: 'noopener noreferrer',
     icon: <Mail className="w-6 h-6" />,
     label: 'Get in touch',
