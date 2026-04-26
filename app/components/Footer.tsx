@@ -20,7 +20,7 @@ export default function Footer() {
           <a
             href="https://github.com/niklashoefling"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="me noopener noreferrer"
             className="hover:text-white transition-colors underline-offset-4 hover:underline"
           >
             GitHub
@@ -28,7 +28,7 @@ export default function Footer() {
           <a
             href="https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="me noopener noreferrer"
             className="hover:text-white transition-colors underline-offset-4 hover:underline"
           >
             LinkedIn

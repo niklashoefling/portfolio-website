@@ -60,10 +60,7 @@ export default function Experience() {
       : cvData.filter((item) => item.type === activeFilter);
 
   return (
-    <section
-      id="experience"
-      className="py-24 px-6 md:px-16 lg:px-32 bg-[#0f1115] text-white"
-    >
+    <section className="py-24 px-6 md:px-16 lg:px-32 bg-[#0f1115] text-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-[0.3em] mb-10">
           02. Experience &amp; Education

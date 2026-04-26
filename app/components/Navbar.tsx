@@ -23,7 +23,11 @@ export default function Navbar() {
         </Link>
         <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-400">
           {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="hover:text-zinc-300 transition-colors">
+            <Link
+              key={link.href}
+              href={link.href}
+              className="hover:text-zinc-300 transition-colors"
+            >
               {link.label}
             </Link>
           ))}
@@ -39,7 +43,10 @@ export default function Navbar() {
 
       {open && (
         <div className="fixed inset-0 z-60 flex justify-end">
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setOpen(false)} />
+          <div
+            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            onClick={() => setOpen(false)}
+          />
           <div className="relative bg-zinc-900 w-64 min-h-full p-8 flex flex-col gap-6 shadow-2xl">
             <button
               className="absolute top-6 right-6 text-zinc-400 hover:text-white transition-colors"

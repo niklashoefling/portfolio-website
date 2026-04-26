@@ -14,7 +14,7 @@ export default function Hero() {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
+      <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('/noise.svg')]"></div>
 
       <div className="relative z-10 max-w-3xl">
         <p className="text-sm font-mono text-zinc-400 mb-4 tracking-[0.2em] uppercase drop-shadow-md">

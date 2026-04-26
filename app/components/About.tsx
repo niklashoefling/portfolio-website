@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6 md:px-16 lg:px-32 bg-zinc-900 ">
+    <section className="py-24 px-6 md:px-16 lg:px-32 bg-zinc-900">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16">
           <div className="lg:w-1/3">
@@ -46,9 +46,9 @@ export default function About() {
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
-                <div className="p-7 bg-zinc-900/40 border border-zinc-800/50 rounded-xl group hover:border-zinc-500/30 transition-all duration-300 shadow-sm">
+                <div className="p-7 bg-zinc-900/40 border border-zinc-800/50 rounded-xl group hover:border-blue-500/30 transition-all duration-300 shadow-sm">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-zinc-500 text-xs font-mono font-bold tracking-tighter">
+                    <span className="text-blue-500 text-xs font-mono font-bold tracking-tighter">
                       01
                     </span>
                     <h4 className="text-zinc-100 font-semibold italic text-base">
@@ -65,9 +65,9 @@ export default function About() {
                   </p>
                 </div>
 
-                <div className="p-7 bg-zinc-900/40 border border-zinc-800/50 rounded-xl group hover:border-zinc-500/50 transition-all duration-300 shadow-sm">
+                <div className="p-7 bg-zinc-900/40 border border-zinc-800/50 rounded-xl group hover:border-blue-500/30 transition-all duration-300 shadow-sm">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-zinc-500 text-xs font-mono font-bold tracking-tighter">
+                    <span className="text-blue-500 text-xs font-mono font-bold tracking-tighter">
                       02
                     </span>
                     <h4 className="text-zinc-100 font-semibold italic text-base">
@@ -99,7 +99,8 @@ export default function About() {
               <a
                 href="https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/"
                 target="_blank"
-                className="group text-sm font-mono text-zinc-500 hover:text-white transition-colors flex items-center gap-2"
+                rel="me noopener noreferrer"
+                className="group text-sm font-mono text-blue-500 hover:text-white transition-colors flex items-center gap-2"
               >
                 View LinkedIn Profile{' '}
                 <span className="group-hover:translate-x-1 transition-transform">
