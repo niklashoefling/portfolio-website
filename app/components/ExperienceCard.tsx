@@ -63,7 +63,7 @@ export default function ExperienceCard({ item }: ExperienceCardProps) {
           </div>
         </div>
 
-        <p className="text-xs text-zinc-500 mb-3">
+        <p className="text-xs text-zinc-400 mb-3">
           {item.organization}&nbsp;·&nbsp;{item.duration}
         </p>
 

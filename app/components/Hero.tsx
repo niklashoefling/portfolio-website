@@ -1,19 +1,18 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section
-      className="relative min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-32 overflow-hidden"
-      style={{
-        backgroundImage: `linear-gradient(to bottom, 
-    rgba(24, 24, 27, 0.3) 0%, 
-    rgba(24, 24, 27, 0.8) 60%, 
-    rgba(24, 24, 27, 1) 100%), 
-    url('/hero.jpeg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
-    >
+    <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-32 overflow-hidden">
+      <Image
+        src="/hero.jpeg"
+        alt=""
+        fill
+        className="object-cover object-center -z-10"
+        priority
+        quality={85}
+      />
+      <div className="absolute inset-0 bg-linear-to-b from-zinc-900/30 via-zinc-900/80 to-zinc-900 -z-10" />
       <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('/noise.svg')]"></div>
 
       <div className="relative z-10 max-w-3xl">

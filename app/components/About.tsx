@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16">
           <div className="lg:w-1/3">
-            <h2 className="text-sm font-mono text-zinc-500 uppercase tracking-[0.3em] mb-6">
+            <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-[0.3em] mb-6">
               01. About Me
             </h2>
             <h3 className="text-4xl font-bold text-white leading-tight mb-8">

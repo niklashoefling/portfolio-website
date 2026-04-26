@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section className="py-24 px-6 md:px-16 lg:px-32 bg-zinc-900">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-sm font-mono text-zinc-500 uppercase tracking-[0.3em] mb-12">
+        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-[0.3em] mb-12">
           03. Projects
         </h2>
 

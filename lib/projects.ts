@@ -26,7 +26,7 @@ export const projects: Project[] = [
       The site uses static generation for fast page loads and smooth navigation,
       with a focus on typography and whitespace to let the work speak for itself.
     `,
-    heroImage: '/portfolio-website-hero.png',
+    heroImage: '/portfolio-website-hero.jpeg',
     githubLink: 'https://github.com/niklashoefling/portfolio-website',
   },
   {
