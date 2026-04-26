@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ImpressumPage() {
   return (
-    <main className="min-h-screen bg-[#0f1115] text-zinc-400 font-light pb-24" lang="de">
+    <main className="min-h-screen bg-[#0f1115] text-zinc-400 font-light pb-24">
       <nav className="py-12 px-6 md:px-16 lg:px-32">
         <Link
           href="/"
