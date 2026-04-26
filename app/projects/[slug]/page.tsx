@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { projects, getProjectBySlug } from '@/lib/projects';
-import ProjectPage from '@/components/ProjectPage';
+import ProjectPage from '@/app/components/ProjectPage';
 
 export default async function Page({
   params,

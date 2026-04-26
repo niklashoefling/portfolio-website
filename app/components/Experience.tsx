@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import ExperienceCard, { CvItem } from '@/components/ExperienceCard';
+import ExperienceCard, { CvItem } from '@/app/components/ExperienceCard';
 
 type FilterType = 'all' | 'Rotation' | 'Experience' | 'Education';
 
