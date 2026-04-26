@@ -10,7 +10,6 @@ export default function Hero() {
         fill
         className="object-cover object-center -z-10"
         priority
-        quality={85}
       />
       <div className="absolute inset-0 bg-linear-to-b from-zinc-900/30 via-zinc-900/80 to-zinc-900 -z-10" />
       <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('/noise.svg')]"></div>

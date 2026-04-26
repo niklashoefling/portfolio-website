@@ -16,7 +16,7 @@ export default function About() {
 
             <div className="aspect-square w-full bg-zinc-900 rounded-2xl border border-zinc-800 relative overflow-hidden group shadow-2xl shadow-blue-500/10 transition-transform duration-500 hover:scale-[1.01]">
               <Image
-                src="/profile.jpeg"
+                src="/opengraph-image.jpeg"
                 alt="Niklas Höfling"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"

@@ -54,7 +54,10 @@ export default function ContactPage() {
     <main className="min-h-screen bg-[#0f1115] text-white flex flex-col justify-between p-6 md:p-16 lg:p-32">
       <div className="max-w-6xl w-full mx-auto pt-20">
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-light italic tracking-tighter leading-none mb-16">
-          Contact
+          Let&apos;s talk <br />
+          <span className="text-zinc-500 group-hover:text-white transition-colors duration-700">
+            Business.
+          </span>
         </h1>
       </div>
 
