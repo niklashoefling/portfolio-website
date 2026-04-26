@@ -10,18 +10,20 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div id="home" className="pt-16 -mt-16">
-        <Hero />
-      </div>
-      <div id="about" className="pt-16 -mt-16">
-        <About />
-      </div>
-      <div id="experience" className="pt-16 -mt-16">
-        <Experience />
-      </div>
-      <div id="projects" className="pt-16 -mt-16">
-        <Projects />
-      </div>
+      <main>
+        <div id="home" className="pt-16 -mt-16">
+          <Hero />
+        </div>
+        <div id="about" className="pt-16 -mt-16">
+          <About />
+        </div>
+        <div id="experience" className="pt-16 -mt-16">
+          <Experience />
+        </div>
+        <div id="projects" className="pt-16 -mt-16">
+          <Projects />
+        </div>
+      </main>
       <Footer />
     </div>
   );

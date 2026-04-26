@@ -19,7 +19,7 @@ export default function Navbar() {
     <>
       <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-16 py-6 backdrop-blur-sm bg-zinc-950/50">
         <Link href="/" className="font-bold text-xl tracking-tighter">
-          N.
+          Niklas Höfling
         </Link>
         <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-400">
           {navLinks.map((link) => (

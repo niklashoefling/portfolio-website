@@ -17,13 +17,13 @@ export default function Projects() {
                 className="h-full p-8 rounded-2xl border border-zinc-800/50 bg-zinc-900/10 flex flex-col justify-between"
               >
                 <div>
-                  <span className="text-[10px] font-mono text-zinc-600 uppercase tracking-widest italic">
+                  <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-widest italic">
                     Coming Soon
                   </span>
                   <h3 className="text-xl font-bold text-zinc-500 mt-2">
                     {project.title}
                   </h3>
-                  <p className="text-sm text-zinc-600 mt-4 leading-relaxed font-light">
+                  <p className="text-sm text-zinc-500 mt-4 leading-relaxed font-light">
                     {project.intro}
                   </p>
                 </div>
@@ -57,7 +57,7 @@ export default function Projects() {
                     {project.tech.map((t) => (
                       <span
                         key={t}
-                        className="px-2 py-1 text-[9px] border border-zinc-800 rounded bg-black/20 text-zinc-500 uppercase"
+                        className="px-2 py-1 text-[9px] border border-zinc-700 rounded bg-black/20 text-zinc-400 uppercase"
                       >
                         {t}
                       </span>
