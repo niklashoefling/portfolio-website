@@ -30,7 +30,7 @@ export default function Home() {
 }
 
 export const metadata: Metadata = {
-  title: 'Resume - Niklas Höfling',
+  title: 'Resume | Niklas Höfling',
   description:
     'Niklas Höfling — STAR Student in Business Information Systems at SAP & DHBW Mannheim. Explore my projects and experience.',
   openGraph: {
@@ -38,8 +38,5 @@ export const metadata: Metadata = {
     description:
       'STAR Student in Business Information Systems at SAP & DHBW Mannheim.',
     url: 'https://niklas-hoefling.de',
-    images: [
-      { url: '/profile.jpeg', width: 1200, height: 630, alt: 'Niklas Höfling' },
-    ],
   },
 };
