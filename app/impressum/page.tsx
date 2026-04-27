@@ -43,10 +43,10 @@ export default function ImpressumPage() {
             <p className="text-zinc-200">
               E-Mail:{' '}
               <a
-                href="mailto:hoefling.niklas@gmx.de"
+                href="mailto:&#104;&#111;&#101;&#102;&#108;&#105;&#110;&#103;&#46;&#110;&#105;&#107;&#108;&#97;&#115;&#64;&#103;&#109;&#120;&#46;&#100;&#101;"
                 className="hover:text-blue-400 underline decoration-zinc-800 underline-offset-4 transition-colors"
               >
-                hoefling.niklas@gmx.de
+                hoefling.niklas&#64;gmx.de
               </a>
             </p>
           </section>
