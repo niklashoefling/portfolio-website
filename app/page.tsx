@@ -39,7 +39,7 @@ export const metadata: Metadata = {
       'STAR Student in Business Information Systems at SAP & DHBW Mannheim.',
     url: 'https://niklas-hoefling.de',
     images: [
-      { url: '/hero.jpeg', width: 1200, height: 630, alt: 'Niklas Höfling' },
+      { url: '/profile.jpeg', width: 1200, height: 630, alt: 'Niklas Höfling' },
     ],
   },
 };
