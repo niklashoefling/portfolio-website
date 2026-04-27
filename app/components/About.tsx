@@ -14,12 +14,13 @@ export default function About() {
               <span className="text-zinc-500 italic">the future.</span>
             </h3>
 
-            <div className="aspect-square w-full bg-zinc-900 rounded-2xl border border-zinc-800 relative overflow-hidden group shadow-2xl shadow-blue-500/10 transition-transform duration-500 hover:scale-[1.01]">
+            <div className="aspect-square w-full max-w-[320px] md:max-w-95 lg:max-w-112.5 bg-zinc-900 rounded-2xl border border-zinc-800 relative overflow-hidden group shadow-2xl shadow-blue-500/10 transition-transform duration-500 hover:scale-[1.01] mx-auto md:mx-0">
               <Image
                 src="/profile.jpeg"
                 alt="Niklas Höfling"
                 fill
-                sizes="(max-width: 768px) 100vw, 33vw"
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 30vw, 25vw"
                 priority
               />
               <div className="absolute inset-0 bg-linear-to-t from-zinc-950/60 to-transparent pointer-events-none" />
