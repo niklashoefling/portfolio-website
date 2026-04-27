@@ -1,4 +1,5 @@
 import { Mail, ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 
 const LinkedinIcon = ({ className }: { className?: string }) => (
   <svg
@@ -52,6 +53,17 @@ const socialLinks = [
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-[#0f1115] text-white flex flex-col justify-between p-6 md:p-16 lg:p-32">
+      <nav className="py-12 px-6 md:px-16 lg:px-32">
+        <Link
+          href="/"
+          className="text-xs font-mono text-zinc-500 hover:text-white transition-colors flex items-center gap-2 group"
+        >
+          <span className="group-hover:-translate-x-1 transition-transform">
+            ←
+          </span>{' '}
+          Back to Home
+        </Link>
+      </nav>
       <div className="max-w-6xl w-full mx-auto pt-20">
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-light italic tracking-tighter leading-none mb-16">
           Let&apos;s talk <br />
