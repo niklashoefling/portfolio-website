@@ -50,7 +50,55 @@ export default function ImpressumPage() {
             </p>
           </section>
 
+          <section>
+            <h2 className="text-xs font-mono text-zinc-500 uppercase tracking-[0.3em] mb-4">
+              Social Media und andere Onlinepräsenzen
+            </h2>
+            <p className="text-sm text-zinc-500 mb-3">
+              Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:
+            </p>
+            <div className="space-y-2">
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-400 hover:text-blue-400 underline decoration-zinc-800 underline-offset-4 transition-colors text-sm break-all"
+                >
+                  https://www.linkedin.com/in/niklas-ralf-höfling-6834b4382/
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/niklashoefling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-400 hover:text-blue-400 underline decoration-zinc-800 underline-offset-4 transition-colors text-sm"
+                >
+                  https://github.com/niklashoefling
+                </a>
+              </p>
+            </div>
+          </section>
+
           <section className="space-y-8 border-t border-zinc-900 pt-12">
+            <div>
+              <h2 className="text-sm font-medium text-white mb-4">
+                Vorbehalt der Nutzung für Text und Data Mining
+              </h2>
+              <p className="text-sm text-zinc-500">
+                Der Inhaber dieser Website gestattet die Nutzung oder das Herunterladen von Inhalten
+                dieser Website durch Dritte für die Entwicklung, das Training oder den Betrieb von
+                künstlicher Intelligenz oder anderen maschinellen Lernsystemen (&ldquo;Text und Data
+                Mining&rdquo;) ausschließlich mit ausdrücklicher schriftlicher Zustimmung des
+                Inhabers. Ohne eine solche Zustimmung ist es untersagt, die Inhalte für Text und
+                Data Mining zu verwenden. Dies gilt auch, wenn auf der Website keine Meta-Angaben
+                vorhanden sind, die entsprechende Verfahren aussperren, und selbst dann, wenn Bots,
+                die den Zweck haben, die Website zu Zwecken des Text und Data Mining auszulesen,
+                nicht ausgesperrt werden.
+              </p>
+            </div>
+
             <div>
               <h2 className="text-sm font-medium text-white mb-4">
                 Haftung für Links
@@ -72,15 +120,14 @@ export default function ImpressumPage() {
                 Urheberrecht
               </h2>
               <p className="text-sm text-zinc-500">
-                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
+                Die durch mich erstellten Inhalte und Werke auf
                 diesen Seiten unterliegen dem deutschen Urheberrecht. Davon
                 ausgenommen ist der bereitgestellte Quellcode, der unter der
                 beigefügten MIT-Lizenz steht. Die Vervielfältigung, Bearbeitung,
                 Verbreitung und jede Art der Verwertung außerhalb der Grenzen
-                des Urheberrechtes bedürfen der schriftlichen Zustimmung des
-                jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser
-                Seite sind nur für den privaten, nicht kommerziellen Gebrauch
-                gestattet.
+                des Urheberrechtes bedürfen meiner schriftlichen Zustimmung.
+                Downloads und Kopien dieser Seite sind nur für den privaten,
+                nicht kommerziellen Gebrauch gestattet.
               </p>
             </div>
           </section>
