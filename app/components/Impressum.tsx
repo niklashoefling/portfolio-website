@@ -1,19 +1,9 @@
-import Link from 'next/link';
+import BackLink from './BackLink';
 
 export default function ImpressumPage() {
   return (
     <main className="min-h-screen bg-[#0f1115] text-zinc-400 font-light pb-24">
-      <nav className="py-12 px-6 md:px-16 lg:px-32">
-        <Link
-          href="/"
-          className="text-xs font-mono text-zinc-500 hover:text-white transition-colors flex items-center gap-2 group"
-        >
-          <span className="group-hover:-translate-x-1 transition-transform">
-            ←
-          </span>{' '}
-          Back to Home
-        </Link>
-      </nav>
+      <BackLink />
 
       <div className="px-6 md:px-16 lg:px-32 max-w-4xl">
         <h1 className="text-4xl md:text-6xl font-light italic text-white mb-12 tracking-tight">

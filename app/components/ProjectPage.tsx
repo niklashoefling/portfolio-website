@@ -1,21 +1,11 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { Project } from '@/lib/projects';
+import BackLink from './BackLink';
 
 export default function ProjectPage({ project }: { project: Project }) {
   return (
     <main className="min-h-screen bg-[#0f1115] text-white pb-32">
-      <nav className="py-12 px-6 md:px-16 lg:px-32">
-        <Link
-          href="/#projects"
-          className="text-xs font-mono text-zinc-500 hover:text-white transition-colors flex items-center gap-2 group"
-        >
-          <span className="group-hover:-translate-x-1 transition-transform">
-            ←
-          </span>{' '}
-          Back to Projects
-        </Link>
-      </nav>
+      <BackLink href="/#projects" label="Back to Projects" />
 
       <header className="px-6 md:px-16 lg:px-32 mb-20">
         <div className="max-w-6xl mx-auto">
