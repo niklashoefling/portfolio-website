@@ -7,7 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: base, priority: 1 },
     { url: `${base}/contact`, priority: 0.8 },
-    { url: `${base}/impressum`, priority: 0.3 },
+    { url: `${base}/legal`, priority: 0.3 },
+    { url: `${base}/privacy`, priority: 0.3 },
   ];
 
   const projectRoutes: MetadataRoute.Sitemap = projects
