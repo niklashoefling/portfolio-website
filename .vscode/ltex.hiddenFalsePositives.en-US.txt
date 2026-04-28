@@ -1,3 +1,0 @@
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFramework Next.js 16 — App Router, React 19, static generation\nStyling Tailwind CSS 4\nLanguage TypeScript\nIcons Lucide React\nFonts Geist Sans & Geist Mono via \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q\nDeployment Vercel\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPersonal portfolio of Niklas Höfling — STAR Student in Business Information Systems at SAP & DHBW Mannheim, exploring the intersection of enterprise engineering and AI.\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe content (text, images, visual identity) is copyright © 2026 Niklas Höfling and is not covered by the MIT License.\\E$"}

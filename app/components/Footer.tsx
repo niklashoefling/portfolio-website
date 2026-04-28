@@ -18,28 +18,16 @@ export default function Footer() {
             Contact
           </a>
           <a
-            href="https://github.com/niklashoefling"
-            target="_blank"
-            rel="me noopener noreferrer"
-            aria-label="GitHub profile (opens in new tab)"
-            className="hover:text-white transition-colors underline-offset-4 hover:underline"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/"
-            target="_blank"
-            rel="me noopener noreferrer"
-            aria-label="LinkedIn profile (opens in new tab)"
-            className="hover:text-white transition-colors underline-offset-4 hover:underline"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="/impressum"
+            href="/legal"
             className="hover:text-white transition-colors underline-offset-4 hover:underline"
           >
             Legal
+          </a>
+          <a
+            href="/privacy"
+            className="hover:text-white transition-colors underline-offset-4 hover:underline"
+          >
+            Privacy
           </a>
         </div>
       </div>
