@@ -34,8 +34,8 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    value: 'Niklas Ralf Höfling',
-    href: 'https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/',
+    value: 'Niklas Höfling',
+    href: 'https://www.linkedin.com/in/niklas-hoefling',
     rel: 'me noopener noreferrer',
     icon: <LinkedinIcon className="w-6 h-6" />,
     label: 'Professional Network',

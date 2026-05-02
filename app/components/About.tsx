@@ -98,7 +98,7 @@ export default function About() {
 
             <div className="pt-6 border-t border-zinc-900/50">
               <a
-                href="https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/"
+                href="https://www.linkedin.com/in/niklas-hoefling"
                 target="_blank"
                 rel="me noopener noreferrer"
                 className="group text-sm font-mono text-blue-500 hover:text-white transition-colors flex items-center gap-2"
