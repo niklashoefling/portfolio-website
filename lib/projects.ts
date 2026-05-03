@@ -13,7 +13,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: 'Portfolio Website',
-    tech: ['Next.js', 'Tailwind CSS', 'React', 'Vercel'],
+    tech: ['Next.js', 'Tailwind CSS', 'React', 'Vercel', 'TypeScript'],
     slug: 'portfolio-website',
     year: '2026',
     intro:
