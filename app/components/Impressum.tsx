@@ -50,12 +50,12 @@ export default function ImpressumPage() {
             <div className="space-y-2">
               <p>
                 <a
-                  href="https://www.linkedin.com/in/niklas-ralf-h%C3%B6fling-6834b4382/"
+                  href="https://www.linkedin.com/in/niklas-hoefling/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-zinc-400 hover:text-blue-400 underline decoration-zinc-800 underline-offset-4 transition-colors text-sm break-all"
                 >
-                  https://www.linkedin.com/in/niklas-ralf-höfling-6834b4382/
+                  https://www.linkedin.com/in/niklas-hoefling/
                 </a>
               </p>
               <p>
