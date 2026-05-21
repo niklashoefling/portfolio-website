@@ -1,14 +1,4 @@
-type ItemType = 'Rotation' | 'Experience' | 'Education';
-type ItemStatus = 'active' | 'done';
-
-export interface CvItem {
-  type: ItemType;
-  status: ItemStatus;
-  title: string;
-  organization: string;
-  duration: string;
-  description: string;
-}
+import { CvItem, ItemType } from "@/lib/experiences";
 
 const TYPE_LABELS: Record<ItemType, string> = {
   Rotation: 'Rotation',
