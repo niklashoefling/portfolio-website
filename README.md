@@ -36,15 +36,16 @@ npm run lint      # ESLint
 
 ```
 app/
-├── components/   # Hero, Navbar, About, Experience, Projects, Footer
-├── contact/      # Contact page
-├── impressum/    # Legal notice (German law)
-├── projects/     # Dynamic project detail pages
-├── layout.tsx    # Root layout + metadata
-└── page.tsx      # Home page
+├── components/     # Hero, Navbar, About, Experience, Projects, Footer
+├── contact/        # Contact page
+├── impressum/      # Legal notice (German law)
+├── projects/       # Dynamic project detail pages
+├── layout.tsx      # Root layout + metadata
+└── page.tsx        # Home page
 lib/
-└── projects.ts   # Project data
-public/           # Static assets (images)
+├── experiences.ts  # Experience data
+└── projects.ts     # Project data
+public/             # Static assets (images)
 ```
 
 ## License
