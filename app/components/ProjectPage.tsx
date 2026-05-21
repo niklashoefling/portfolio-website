@@ -68,19 +68,20 @@ export default function ProjectPage({ project }: { project: Project }) {
               <div className="space-y-8 text-zinc-400 font-light leading-relaxed text-lg whitespace-pre-line">
                 {project.fullDescription}
               </div>
-
-              <div className="mt-16 pt-16 border-t border-zinc-900">
-                <a
-                  href={project.githubLink}
-                  target="_blank"
-                  className="text-white font-medium hover:text-blue-400 transition-colors inline-flex items-center gap-2 group"
-                >
-                  View on GitHub{' '}
-                  <span className="group-hover:translate-x-1 transition-transform">
-                    →
-                  </span>
-                </a>
-              </div>
+              {project.githubLink && (
+                <div className="mt-16 pt-16 border-t border-zinc-900">
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    className="text-white font-medium hover:text-blue-400 transition-colors inline-flex items-center gap-2 group"
+                  >
+                    View on GitHub{' '}
+                    <span className="group-hover:translate-x-1 transition-transform">
+                      →
+                    </span>
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>
