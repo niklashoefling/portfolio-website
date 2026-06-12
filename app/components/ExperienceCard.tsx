@@ -22,14 +22,6 @@ interface ExperienceCardProps {
 export default function ExperienceCard({ item }: ExperienceCardProps) {
   return (
     <div className="relative">
-      <div
-        className={`absolute -left-7 top-2.5 w-2.5 h-2.5 rounded-full border-2 border-zinc-900 ${
-          item.status === 'active'
-            ? 'bg-blue-500 shadow-[0_0_0_3px_rgba(59,130,246,0.2)]'
-            : 'bg-zinc-500'
-        }`}
-      />
-
       <div className="group bg-white/5 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600/70 transition-all duration-200">
         <div className="flex items-start justify-between gap-3 mb-1.5">
           <p className="text-[15px] font-medium text-white leading-snug">

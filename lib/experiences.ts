@@ -2,16 +2,19 @@ export type ItemType = 'Rotation' | 'Experience' | 'Education';
 export type ItemStatus = 'active' | 'done';
 
 export interface CvItem {
+  id: string;
   type: ItemType;
   status: ItemStatus;
   title: string;
   organization: string;
   duration: string;
   description: string;
+  parentId?: string;
 }
 
 export const cvData: CvItem[] = [
   {
+    id: 'sap-star',
     type: 'Experience',
     status: 'active',
     title: 'STAR Student - Software Engineering',
@@ -21,6 +24,18 @@ export const cvData: CvItem[] = [
       'Part of the SAP STAR program, combining academic studies with practical engineering rotations across different global departments.',
   },
   {
+    id: 'sap-s4hana-rotation',
+    type: 'Rotation',
+    status: 'done',
+    title: 'S/4HANA Cloud Foundation - AI Agent for Developer Tutorials',
+    organization: 'SAP',
+    duration: 'Jan 2026 - May 2026',
+    description:
+      'Developing cloud-native AI agents on SAP BTP. Built a multi-agent LLM pipeline using LangGraph and SAP AI SDK to automate developer documentation and Git workflows.',
+    parentId: 'sap-star',
+  },
+  {
+    id: 'dhbw',
     type: 'Education',
     status: 'active',
     title: 'B.Sc. Business Information Systems - Software Engineering',
@@ -30,15 +45,7 @@ export const cvData: CvItem[] = [
       'Serving as Class Representative, coordinating communication between faculty and students. Focus areas: software engineering, AI, and business.',
   },
   {
-    type: 'Experience',
-    status: 'done',
-    title: 'S/4HANA Cloud Foundation - AI Agent for Developer Tutorials',
-    organization: 'SAP',
-    duration: 'Jan 2026 - May 2026',
-    description:
-      'Developing cloud-native AI agents on SAP BTP. Built a multi-agent LLM pipeline using LangGraph and SAP AI SDK to automate developer documentation and Git workflows.',
-  },
-  {
+    id: 'abitur',
     type: 'Education',
     status: 'done',
     title: 'Abitur',
